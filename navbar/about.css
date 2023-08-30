@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #4b4b4b;
+}
+
+header {
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 3rem;
+}
+
+.cs50w {
+  position: absolute;
+  width: 100px;
+  left: 20px;
+  top: 20px;
+  bottom: 24px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.profile-img {
+  max-width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.project-0 {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+p {
+  margin-top: 1rem;
+  line-height: 1.6;
+}

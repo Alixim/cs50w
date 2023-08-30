@@ -1,0 +1,164 @@
+/* 
++++++++++++++++++++++++++++++
+|  CS50W: Project_0_Search  |
++++++++++++++++++++++++++++++
+*/
+
+
+/* 
++++++++++++++++++++++++++++++
+|          Header           |
++++++++++++++++++++++++++++++
+*/
+
+header {
+  margin-bottom: 45px;
+}
+
+
+/* 
++++++++++++++++++++++++++++++
+|         Content           |
++++++++++++++++++++++++++++++
+*/
+
+.big-google {
+  position: relative;
+}
+
+/* The word (Images) under the big Google */
+.g-img-search {
+  color: #4285f4;
+  font: arial, sans-serif;
+  font-size: 16px;
+  position: absolute;
+  left: 215px;
+  bottom: 5px;
+  white-space: nowrap;
+}
+
+
+/* +++++ START Form +++++ */
+.form-image {
+  position: relative;
+  width: 55%;
+  /* min-width: 80%; */
+  padding-top: 0 ;
+  margin-top: 8px;
+  
+
+}
+
+
+/* Elliptical Shape */
+
+.right-icons {
+  display: flex;
+}
+
+
+.search-bar-image{
+  display: flex;
+  flex: 1;
+  border: 1px solid rgb(213, 213, 213);
+  border-radius: 60px;
+  position: relative;
+  min-height: 50px;
+  background: #fff;
+  margin: 0 auto;
+
+
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.search-bar-image:hover {
+  box-shadow: 
+    0px 1px 6px -1px rgba(120,120,120,0.75);
+  -webkit-box-shadow: 
+    0px 1px 6px -1px rgba(120,120,120,0.75);
+  -moz-box-shadow: 
+    0px 1px 6px -1px rgba(120,120,120,0.75);
+}
+
+.g-input-image {
+  /* display: flex;
+  flex-wrap: wrap;
+  flex: 1; */
+  position: absolute;
+  width: 70%;
+  margin: 10px auto 10px 45px;
+  padding: 5px 0;
+  border: none;
+  outline: none;
+  font-family: arial,sans-serif;
+  line-height: 22px;
+  overflow-x: hidden;
+  resize: none;
+  color: rgba(0,0,0,.87);
+  word-wrap: break-word;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Right-side border during typing in */
+#searchBar {
+  /* Initial transparent border */
+  border-right: 2px solid transparent; 
+}
+
+#searchBar:focus {
+  /* Change border color when focused */
+  border-color: #d5d5d5; 
+}
+
+.g-input-image input {
+  width: 100%;
+  outline: none;
+  border: 0;
+  font-size: 1.2em;
+  color: rgba(0,0,0,.87);
+  cursor: text;
+}
+
+.g-input-image input:hover {
+  cursor: text;
+}
+
+.m-glass-image img  {
+  position: absolute;
+  left: 20px;
+  top: 16px;
+  width: 18px;
+  filter: opacity(0.25);
+}
+
+.g-mic-image img {
+  position: absolute;
+  right: 78px;
+  top: 14px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.g-camera-image img {
+  position: absolute;
+  right: 50px;
+  top: 14px;
+  width: 24px;
+  cursor: pointer;
+} 
+
+.m-glass-image-r {
+  position: absolute;
+  right: 40px;
+  top: 16px;
+  cursor: pointer;
+  filter: invert(38%) sepia(97%) saturate(757%) hue-rotate(191deg) brightness(104%) contrast(91%); 
+}
+
+/* +++++ END Form +++++ */
+
+
+
+

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Search</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="advanced.css">
+</head>
+<body>
+  <!-- Google Advanced Search -->
+  <main class="wrapper">
+    <header class="header">
+      <div class="google-icon cs50w">
+        <a href="../index.html">
+          <img src="../images/cs50w-color.png" alt="" width="100px">
+        </a>
+      </div>
+
+      <div class="advanced_search">
+        <label>Advanced Search</label>
+      </div>
+    </header>
+
+    <div class="main-form">
+      <form action="/search" id="form" class="form" method="GET" name="f">
+        <input type="hidden" name="h1" value="">
+
+        <!-- The Three Parts -->
+        <!-- START 1st Part -->
+        <div class="first-part">
+
+          <!-- Find pages with... -->
+          <div class="field find-pages">
+      
+              <div class=" sub-field-1">
+                <span>Find pages with...</span>
+              </div>
+              <!-- <div class="hidden-input"></div> -->
+              <div class="sub-field-2 hidden-input">&nbsp; </div>
+              <div class="sub-field-3 to-do-this">
+                <span>To do this in the search box.</span>
+              </div>
+          </div>
+
+          <!-- all these words: -->
+          <div class="field">
+            <div class=" sub-field-1">
+              <label for="">all these words:</label>
+            </div>
+            <div class="sub-field-2">
+              <input type="text" class="input-text">
+            </div>
+            <div class="sub-field-3">
+              <span class="r-note">Type the important words:</span>
+              <span class="r-note-example">tri-colour rat terrier</span>
+            </div>
+          </div>
+
+          <!-- this exact word or phrase: -->
+          <div class="field">
+            <div class="sub-field-1">
+              <label for="">this exact word or phrase:</label>
+            </div>
+            <div class="sub-field-2">
+              <input type="text" class="input-text">
+            </div>
+            <div class="sub-field-3">
+              <span class="r-note">Put exact words in quotes:</span>
+              <span class="r-note-example">"rat terrier"</span>
+            </div>
+          </div>
+
+          <!-- any of these words: -->
+          <div class="field">
+            <div class="sub-field-1">
+              <label for="">any of these words:</label>
+            </div>
+            <div class="sub-field-2">
+              <input type="text" class="input-text">
+            </div>
+            <div class="sub-field-3">
+              <span class="r-note">Type OR between all the words you want:</span>
+              <span class="r-note-example">miniature OR standard</span>
+            </div>
+          </div>
+
+          <!-- none of these words: -->
+          <div class="field">
+            <div class="sub-field-1">
+              <label for="">none of these words:</label>
+            </div>
+            <div class="sub-field-2">
+              <input type="text" class="input-text">
+            </div>
+            <div class="sub-field-3">
+              <span class="r-note">Put a minus sign just before words that you don't want:</span>
+              <span class="r-note-example">-rodent, -"Jack Russell"</span>
+            </div>
+          </div>
+
+          <!-- numbers ranging from: -->
+          <div class="field">
+            <div class="sub-field-1">
+              <label for="">numbers ranging from:</label>
+            </div>
+
+            <div class="sub-field-2 sub-field-2b">
+              <div class="l-input-text">
+                <input type="text">
+              </div>
+              <div class="to"><label for="">to</label></div>
+              <div class="r-input-text">
+                <input type="text">
+              </div>
+            </div>
+            <div class="sub-field-3">
+              <span class="r-note">Put two full stops between the numbers and add a unit of measurement:</span>
+              <span class="r-note-example">10..35 kg, £300..£500, 2010..2011</span>
+            </div>
+            
+          </div>
+        </div>
+       
+        <!-- END 1st. Part -->
+        <!-- --------------- -->
+
+        <!-- START 2nd. Part -->
+
+        <div class="second-part">
+
+          <!-- Then narrow your results... -->
+          <div class="field narrow-search">
+            <div>
+              <span class="temporary">(to be continued...)</span>
+            </div>
+            <!-- <div class="sub-field-1">
+              <span>Then narrow your results by...</span>
+            </div>
+            <div class="sub-field-2 hidden-input">&nbsp; </div>
+            <div class="sub-field-3 to-do-this">
+              <span>To do this in the search box.</span>
+            </div> -->
+
+
+          </div>
+
+
+          <!-- <div class="field field2">
+      
+            <div class="sub-field-1">
+              <span" >Then narrow your results by...</span>
+            </div>
+            <div class="under_construction">
+              <span>(UNDER CONSTRUCTION)</span>
+            </div>
+            <div class="sub-field-2 hidden-input">&nbsp; </div>
+    
+          </div> -->
+
+          <!-- language: -->
+          <!-- <div class="field">
+            <div class="sub-field-1">
+              <label for="">language:</label>
+            </div>
+            <div class=" sub-field-2">
+              <input type="text" class="input-text">
+            </div>
+            <div class="sub-field-3">
+              <span class="r-note">Find pages in the language that you select.</span>
+            </div>
+          </div> -->
+
+          <!-- region: -->
+          <!-- <div class="field">
+            <div class="sub-field-1">
+              <label for="">region:</label>
+            </div>
+            <div class="sub-field-2">
+              <input type="text" class="input-text">
+            </div>
+            <div class="sub-field-3">
+              <span class="r-note">Find pages published in a particular region.</span>
+            </div>
+          </div> -->
+
+          <!-- last update: -->
+          <!-- <div class="field">
+            <div class="sub-field-1">
+              <label for="">last update:</label>
+            </div>
+            <div class="sub-field-2">
+              <input type="text" class="input-text">
+            </div>
+            <div class="sub-field-3">
+              <span class="r-note">Find pages updated within the time that you specify.</span>
+            </div>
+          </div> -->
+
+          <!-- site or domain: -->
+          <!-- <div class="field">
+            <div class="sub-field-1">
+              <label for="">site or domain:</label>
+            </div>
+            <div class="sub-field-2">
+              <input type="text" class="input-text">
+            </div>
+            <div class="sub-field-3">
+              <span class="r-note">Search one site (like wikipedia.org ) or limit your results to a domain like .edu, .org or .gov</span>
+            </div>
+          </div> -->
+
+          <!-- terms appearing: -->
+          <!-- <div class="field">
+            <div class="sub-field-1">
+              <label for="">terms appearing:</label>
+            </div>
+
+            <div class="sub-field-2 sub-field-2b">
+              <div class="l-input-text">
+                <input type="text">
+              </div>
+            </div>
+            <div class="sub-field-3">
+              <span class="r-note">Search for terms in the whole page, page title or web address, or links to the page you're looking for.</span>
+            </div> -->
+            
+          </div>
+        </div>
+        <!-- END 2nd. Part -->
+        <!-- --------------- -->
+
+        <!-- START 3rd. Part -->
+        <!-- END 3rd. Part -->
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="germany">Germany</p>
+      <hr>
+
+      <div class="base">
+        <div class="footer-1">
+          <ul>
+            <li><a href="https://cs50.harvard.edu/web/2020/">CS50W_2023</a></li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+          </ul> 
+        </div>
+
+        <div class="footer-2">
+          <ul>
+            <li><a href="#">How Search works</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul> 
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

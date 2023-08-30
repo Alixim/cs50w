@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <!-- 
+    +++++++++++++++++++++++++++++
+    |  CS50W: Project_0_Search  |
+    +++++++++++++++++++++++++++++
+  -->
+  <main class="google">
+  
+  <!-- 
+    +++++++++++++++++++++++++++++
+    |           Header          |
+    +++++++++++++++++++++++++++++
+  -->
+    <header>
+      <div class="cs50w">
+        <a href="index.html">
+          <img src="images/cs50w-color.png" alt="" width="100px">
+        </a>
+      </div>
+
+      <nav>
+        <ul class="nav__right">
+          <li><a href="navbar/image.html">Images</a></li>
+          <li><a href="navbar/advanced.html">Advanced</a></li>
+          <li><a href="navbar/about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- 
+      +++++++++++++++++++++++++++++
+      |          Content          |
+      +++++++++++++++++++++++++++++
+    -->
+    <div class="content">
+      <div class="container">
+        <div class="big-google">
+          <img src="images/g_logo.png" alt="">
+        </div>
+        <br> 
+      <!-- 
+        +++++++++++++++++++++++++++++
+        |            Form           |
+        +++++++++++++++++++++++++++++
+      -->
+        <div class="form">
+          <form class="search-bar" action="https://www.google.com/search" method="get" target="_blank">
+
+            <div class="m-glass">
+              <img src="images/search_glass.png" alt="magnifying glass"/>
+            </div>
+            
+              
+            <div class="g-input">
+              <input id="searchBar" type="search" name="q">
+            </div>
+
+            <div class="icons-right">
+              <div class="g-mic">
+                <img src="images/google-voice.png" alt="" style="width: 28px;">
+              </div>
+
+              <div class="g-camera">
+                <img src="images/color-google-cam.png" alt="" style="width: 25px;">
+              </div>
+            </div>
+          </form>
+
+          <!-- 
+            +++++++++++++++++++++++++++++
+            |        Two Buttons        |
+            +++++++++++++++++++++++++++++
+          -->
+          <div class="two-btn">
+            <div id="goSearch" class="btn">
+              <input type="submit" value="Google Search">
+            </div>
+
+            <div id="lucky" class="btn">
+              <input type="submit" value="I'm Feeling Lucky">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+      +++++++++++++++++++++++++++++
+      |          Footer           |
+      +++++++++++++++++++++++++++++
+    -->
+    <footer class="footer">
+      <p class="germany">Germany</p>
+      <hr>
+
+      <div class="base">
+        <div class="footer-1">
+          <ul>
+            <li class="CS50W_2023"><a href="https://cs50.harvard.edu/web/2020/" target="_blank">CS50W_2023</a></li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+          </ul> 
+        </div>
+
+        <div class="footer-2">
+          <ul>
+            <li><a href="#">How Search works</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul> 
+        </div>
+      </div>
+    </footer>
+  </main>
+
+
+  <!-- script.js -->
+  <script src="script/script.js"></script>
+
+</body>
+</html>
